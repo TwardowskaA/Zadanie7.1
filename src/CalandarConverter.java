@@ -1,12 +1,12 @@
 public class CalandarConverter {
 
-    private int MONDAY = 1;
-    private int TUESDAY = 2;
-    private int WEDNESDAY = 3;
-    private int THURSDAY = 4;
-    private int FRIDAY = 5;
-    private int SATURDAY = 6;
-    private int SUNDAY = 7;
+    private final int MONDAY = 1;
+    private final int TUESDAY = 2;
+    private final int WEDNESDAY = 3;
+    private final int THURSDAY = 4;
+    private final int FRIDAY = 5;
+    private final int SATURDAY = 6;
+    private final int SUNDAY = 7;
 
 
     String convertDayToString(int dayNumber) {
@@ -14,32 +14,25 @@ public class CalandarConverter {
         String day = "";
         switch (dayNumber) {
 
-            case 1:
-                dayNumber = 1;
+            case MONDAY:
                 return "Poniedziałek";
 
-            case 2:
-                dayNumber = 2;
+            case TUESDAY:
                 return "Wtorek";
 
-            case 3:
-                dayNumber = 3;
+            case WEDNESDAY:
                 return "Sroda";
 
-            case 4:
-                dayNumber = 4;
+            case THURSDAY:
                 return "Czwartek";
 
-            case 5:
-                dayNumber = 5;
+            case FRIDAY:
                 return "Piątek";
 
-            case 6:
-                dayNumber = 6;
+            case SATURDAY:
                 return "Sobota";
 
-            case 7:
-                dayNumber = 7;
+            case SUNDAY:
                 return "Niedziela";
 
         }
