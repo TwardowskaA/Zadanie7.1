@@ -9,42 +9,41 @@ public class CalandarConverter {
     private int SUNDAY = 7;
 
 
-
-    String convertDayToString(int dayNumber){
+    String convertDayToString(int dayNumber) {
 
         String day = "";
-        switch (dayNumber){
-            case 1:
-                dayNumber = MONDAY;
-                System.out.print("Poniedziałek");
-                break;
-            case 2:
-                dayNumber = TUESDAY;
-                System.out.print("Wtorek");
-                break;
-            case 3:
-                dayNumber = WEDNESDAY;
-                System.out.print("Sroda");
-                break;
-            case 4:
-                dayNumber = THURSDAY;
-                System.out.print("Czwartek");
-                break;
-            case 5:
-                dayNumber = FRIDAY;
-                System.out.print("Piątek");
-                break;
-            case 6:
-                dayNumber = SATURDAY;
-                System.out.print("Sobota");
-                break;
-            case 7:
-                dayNumber = SUNDAY;
-                System.out.print("Niedziela");
-                break;
+        switch (dayNumber) {
 
+            case 1:
+                dayNumber = 1;
+                return "Poniedziałek";
+
+            case 2:
+                dayNumber = 2;
+                return "Wtorek";
+
+            case 3:
+                dayNumber = 3;
+                return "Sroda";
+
+            case 4:
+                dayNumber = 4;
+                return "Czwartek";
+
+            case 5:
+                dayNumber = 5;
+                return "Piątek";
+
+            case 6:
+                dayNumber = 6;
+                return "Sobota";
+
+            case 7:
+                dayNumber = 7;
+                return "Niedziela";
 
         }
+
         return day;
     }
 
