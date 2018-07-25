@@ -1,12 +1,12 @@
 public class CalandarConverter {
 
-    private final int MONDAY = 1;
-    private final int TUESDAY = 2;
-    private final int WEDNESDAY = 3;
-    private final int THURSDAY = 4;
-    private final int FRIDAY = 5;
-    private final int SATURDAY = 6;
-    private final int SUNDAY = 7;
+    private static final int MONDAY = 1;
+    private static final int TUESDAY = 2;
+    private static final int WEDNESDAY = 3;
+    private static final int THURSDAY = 4;
+    private static final int FRIDAY = 5;
+    private static final int SATURDAY = 6;
+    private static final int SUNDAY = 7;
 
 
     String convertDayToString(int dayNumber) {
